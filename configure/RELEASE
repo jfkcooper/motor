@@ -21,6 +21,7 @@ ASYN=$(SUPPORT)/asyn-R4-35
 SNCSEQ=$(SUPPORT)/seq-2-2-6
 # Recommended BUSY release: R1-7-1
 BUSY=$(SUPPORT)/busy-R1-7-1
+CALC=$(SUPPORT)/calc
 
 # Recommended EPICS release: R3.15.6
 EPICS_BASE=/path/to/base

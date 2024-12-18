@@ -73,6 +73,10 @@ ifdef BUSY
 	$(ECHO) Creating $@, BUSY = $(BUSY)
 	@echo BUSY = $(BUSY)>> $@
 endif
+ifdef CALC
+	$(ECHO) Creating $@, CALC = $(CALC)
+	@echo CALC = $(CALC)>> $@
+endif
 ifdef IPAC
 	$(ECHO) Creating $@, IPAC = $(IPAC)
 	@echo IPAC = $(IPAC)>> $@
